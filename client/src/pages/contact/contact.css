@@ -1,0 +1,54 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.contactWrapper{
+    flex:9;
+    margin: 0px 50px;
+}
+
+.contactTitle{
+    text-align: center;
+    margin: 40px;
+
+}
+
+.contactForm{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(71, 71, 71)
+}
+
+.contactInput{
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+    border-bottom: 0.5px solid grey;
+}
+.contactCheckbox{
+    margin: 10px;
+}
+.contactCheck{
+    margin: 8px;
+}
+
+.contactText{
+    width: 60%;
+    height: 100px;
+    border: 0.5px solid grey;
+
+}
+.contactBtn{
+    margin: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
